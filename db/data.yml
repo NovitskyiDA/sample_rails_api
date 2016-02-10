@@ -1,0 +1,37 @@
+
+---
+articles:
+  columns:
+  - id
+  - title
+  - body
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - fisrt article
+    - fdsfdsfdsfdsfsdfdsfdsfsfsdfs
+    - '2016-02-09 12:57:04.555707'
+    - '2016-02-09 12:57:04.555707'
+  - - 2
+    - updated!!!
+    - updated
+    - '2016-02-09 13:26:27.057251'
+    - '2016-02-09 14:15:10.737584'
+
+---
+comments:
+  columns:
+  - id
+  - author
+  - body
+  - article_id
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - Dmytryi
+    - some text dasdasgfd
+    - 2
+    - '2016-02-09 15:41:13.069359'
+    - '2016-02-09 15:41:13.069359'
